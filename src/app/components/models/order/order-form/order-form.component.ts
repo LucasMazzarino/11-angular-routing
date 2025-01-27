@@ -1,6 +1,5 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, ReactiveFormsModule, Validators } from '@angular/forms';
-import { IOrder } from '../../../../interfaces/order.interface';
 import { EditOrderService } from '../../../../services/order/edit-order.service';
 import { GetOrderService } from '../../../../services/order/get-order.service';
 import { GetAllClientService } from '../../../../services/client/get-all-client.service';

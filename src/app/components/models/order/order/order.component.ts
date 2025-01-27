@@ -1,8 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { IOrder } from '../../../../interfaces/order.interface';
-import { GetAllOrderService } from '../../../../services/order/get-all-order.service';
-import { Router, RouterLink } from '@angular/router';
+import { RouterLink } from '@angular/router';
 import { OrderTableComponent } from '../order-table/order-table.component';
 import { BehaviorSubject } from 'rxjs';
 

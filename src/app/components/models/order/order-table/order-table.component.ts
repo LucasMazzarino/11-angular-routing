@@ -1,4 +1,4 @@
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { IOrder } from '../../../../interfaces/order.interface';
 import { BehaviorSubject, Observable } from 'rxjs';
 import { Router } from '@angular/router';

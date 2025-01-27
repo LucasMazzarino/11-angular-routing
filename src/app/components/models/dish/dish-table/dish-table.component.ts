@@ -1,4 +1,4 @@
-import { Component, inject, Input, OnInit} from '@angular/core';
+import { Component, inject, OnInit} from '@angular/core';
 import { IDish } from '../../../../interfaces/dish.interface';
 import { CommonModule, CurrencyPipe } from '@angular/common';
 import { BehaviorSubject, Observable } from 'rxjs';

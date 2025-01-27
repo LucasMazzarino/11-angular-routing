@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IMenu } from '../../../interfaces/menu.interface';
 import { RouterLink } from '@angular/router';
 import { MenuTableComponent } from './menu-table/menu-table.component';
